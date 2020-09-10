@@ -17,7 +17,7 @@ public class StepLogin extends BaseStep {
         Login login = new Login(browsersService);
 
         login.emailField.sendKeys(user.getLogin());
-        login.passwordField.sendKeys(user.getPassword());
+        login.passField.sendKeys(user.getPass());
         login.loginButton.click();
     }
 }

@@ -11,14 +11,14 @@ public class Project extends BasePageFactory {
     public WebElement dashboardButton;
 
     @FindBy(className = "icon-small-delete")
-    public WebElement deleteProjectButton;
+    public WebElement delPjButton;
 
     @FindBy(xpath = "//span[@class='dialog-confirm-busy']/../input")
-    public WebElement deleteProjectButtonV;
+    public WebElement delPjButtonCross;
 
     @FindBy(xpath = "//div[@id='deleteDialog']" +
             "/div[@class='button-group dialog-buttons-highlighted']/a")
-    public WebElement deleteProjectButtonOk;
+    public WebElement delPjButtonKK;
 
     public Project(BrowsersService browsersService) {
         super(browsersService, false);

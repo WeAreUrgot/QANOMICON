@@ -15,10 +15,10 @@ public class StepAdmin extends BaseStep {
     @Step
     public void deleteProjectStep() {
         AAdmin AAdmin = new AAdmin(browsersService, true);
-        AAdmin.projectButton.click();
+        AAdmin.pjButton.click();
         Project project = new Project(browsersService);
-        project.deleteProjectButton.click();
-        project.deleteProjectButtonV.click();
-        project.deleteProjectButtonOk.click();
+        project.delPjButton.click();
+        project.delPjButtonCross.click();
+        project.delPjButtonKK.click();
     }
 }

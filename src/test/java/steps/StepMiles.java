@@ -20,13 +20,13 @@ public class StepMiles extends BaseStep {
     }
 
     @Step
-    public void addMilestonesStep() {
+    public void addMilesStep() {
         Overview overview = new Overview(browsersService);
-        overview.addMilestonesButtonOver.click();
+        overview.addMilesButtonOver.click();
         AMiles aMiles = new AMiles(browsersService);
-        aMiles.nameMilestonesField.sendKeys("HERE WE GO!");
-        aMiles.addMilestoneButton.sendKeys(Keys.END);
-        aMiles.addMilestoneButton.click();
+        aMiles.nameMilesField.sendKeys("HERE WE GO!");
+        aMiles.addMilesButton.sendKeys(Keys.END);
+        aMiles.addMilesButton.click();
     }
 
     @Step
@@ -42,8 +42,8 @@ public class StepMiles extends BaseStep {
         String absolutePath = file.getAbsolutePath();
         aMiles.fileUpload.sendKeys(absolutePath);
         aMiles.addImages.click();
-        aMiles.addMilestoneButton.sendKeys(Keys.END);
-        aMiles.addMilestoneButton.click();
+        aMiles.addMilesButton.sendKeys(Keys.END);
+        aMiles.addMilesButton.click();
     }
 
     @Step
@@ -54,9 +54,9 @@ public class StepMiles extends BaseStep {
         milestones.editStonesButton.click();
         AMiles aMiles = new AMiles(browsersService);
         aMiles.startDateField.sendKeys("0000");
-        aMiles.nameMilestonesField.click();
-        aMiles.addMilestoneButton.sendKeys(Keys.END);
-        aMiles.addMilestoneButton.click();
+        aMiles.nameMilesField.click();
+        aMiles.addMilesButton.sendKeys(Keys.END);
+        aMiles.addMilesButton.click();
     }
 
     @Step
@@ -67,10 +67,10 @@ public class StepMiles extends BaseStep {
         milestones.editStonesButton.click();
         AMiles aMiles = new AMiles(browsersService);
         aMiles.startDateField.sendKeys("31.12.1969");
-        aMiles.nameMilestonesField.click();
-        aMiles.nameMilestonesField.clear();
-        aMiles.addMilestoneButton.sendKeys(Keys.END);
-        aMiles.addMilestoneButton.click();
+        aMiles.nameMilesField.click();
+        aMiles.nameMilesField.clear();
+        aMiles.addMilesButton.sendKeys(Keys.END);
+        aMiles.addMilesButton.click();
 
     }
 

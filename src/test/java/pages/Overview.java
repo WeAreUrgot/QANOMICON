@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 public class Overview extends BasePageFactory {
 
     @FindBy(id = "sidebar-milestones-add")
-    public WebElement addMilestonesButtonOver;
+    public WebElement addMilesButtonOver;
 
     @FindBy(id = "navigation-milestones")
     public WebElement milestonesButton;
@@ -24,6 +24,6 @@ public class Overview extends BasePageFactory {
 
     @Override
     public boolean isPageOpened() {
-        return addMilestonesButtonOver.isDisplayed();
+        return addMilesButtonOver.isDisplayed();
     }
 }

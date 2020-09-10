@@ -14,4 +14,13 @@ import static io.restassured.RestAssured.given;
 public class BaseTestApi {
     public ReadProperties properties;
 
+    @BeforeMethod
+    public void setup() {
+        properties = new ReadProperties();
+
+        RestAssured.baseURI = properties.getURL();
+        RestAssured.requestSpecification = given()
+                .header(HTTP.CONTENT_TYPE, ContentType.JSON)
+                .auth().preemptive().basic(properties.getUsername(), properties.getPassword());
+    }
 }

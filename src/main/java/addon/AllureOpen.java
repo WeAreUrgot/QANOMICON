@@ -8,7 +8,7 @@ public class AllureOpen
     {
         try
         {
-            Process proc = Runtime.getRuntime().exec(new String[]{"cmd.exe", "/c", "allure serve D:\\QA\\QANOMICON\\target\\allure-results\n"});
+            Process proc = Runtime.getRuntime().exec(new String[]{"cmd.exe", "/c", "allure serve D:\\QA\\QANOMICON\\target\\surefire-reports\n"});
             proc.waitFor();
             proc.destroy();
         }

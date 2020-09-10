@@ -3,7 +3,7 @@
 <suite name="likeasnake">
     <test name="api+begin">
         <classes>
-            <class name="TestsAPI.apiTest"/>
+            <class name="apiTests.apiTest"/>
             <class name="TestsUI.TestoAmbiente"/>
         </classes>
     </test>

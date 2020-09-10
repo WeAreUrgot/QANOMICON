@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class TestoAPI extends BaseTestApi {
+public class apiTest extends BaseTestApi {
     int milestoneID;
 
     @Test
@@ -47,15 +47,14 @@ public class TestoAPI extends BaseTestApi {
     }
 
     @Test
-    public void getMiles400() {
-        String endpoint = "index.php?/api/v2/get_milestones/1";
+    public void getMiles403() {
+        String endpoint = "index.php?/api/v2/get_milestones/00";
 
         given()
                 .when()
                 .get(endpoint)
                 .then().log().body()
-                .body("error", is("Field :project_id is not a valid or accessible project."))
-                .statusCode(HttpStatus.SC_BAD_REQUEST);
+                .body("error", is("The requested project does not exist or you do not have the permissions to access it."))
+                .statusCode(HttpStatus.SC_FORBIDDEN);
     }
-
 }
