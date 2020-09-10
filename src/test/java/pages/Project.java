@@ -1,0 +1,36 @@
+package pages;
+
+import baseEntity.BasePageFactory;
+import core.BrowsersService;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Project extends BasePageFactory {
+
+    @FindBy(id = "navigation-dashboard")
+    public WebElement dashboardButton;
+
+    @FindBy(className = "icon-small-delete")
+    public WebElement deleteProjectButton;
+
+    @FindBy(xpath = "//span[@class='dialog-confirm-busy']/../input")
+    public WebElement deleteProjectButtonV;
+
+    @FindBy(xpath = "//div[@id='deleteDialog']" +
+            "/div[@class='button-group dialog-buttons-highlighted']/a")
+    public WebElement deleteProjectButtonOk;
+
+    public Project(BrowsersService browsersService) {
+        super(browsersService, false);
+    }
+
+    @Override
+    protected void openPage() {
+
+    }
+
+    @Override
+    public boolean isPageOpened() {
+        return browsersService.getDriver().getTitle().equalsIgnoreCase("Projects - TestRail");
+    }
+}
