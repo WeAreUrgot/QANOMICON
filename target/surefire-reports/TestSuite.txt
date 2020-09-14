@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 108.079 s <<< FAILURE! - in TestSuite
-addMilestone(TestsAPI.apiTest)  Time elapsed: 4.095 s  <<< FAILURE!
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 108.444 s <<< FAILURE! - in TestSuite
+addMilestone(TestsAPI.apiTest)  Time elapsed: 4.268 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 JSON path name doesn't match.

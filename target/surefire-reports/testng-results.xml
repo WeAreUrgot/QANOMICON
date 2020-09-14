@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-14T22:23:17 MSK" name="likeasnake" finished-at="2020-09-14T22:25:03 MSK" duration-ms="105736">
+  <suite started-at="2020-09-14T22:35:16 MSK" name="likeasnake" finished-at="2020-09-14T22:37:02 MSK" duration-ms="106257">
     <groups>
     </groups>
-    <test started-at="2020-09-14T22:23:17 MSK" name="api+begin" finished-at="2020-09-14T22:23:41 MSK" duration-ms="23183">
+    <test started-at="2020-09-14T22:35:16 MSK" name="api+begin" finished-at="2020-09-14T22:35:39 MSK" duration-ms="23256">
       <class name="TestsUI.TestoAmbiente">
-        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoAmbiente@3005db4a]" started-at="2020-09-14T22:23:25 MSK" name="openPage" finished-at="2020-09-14T22:23:34 MSK" duration-ms="8704" status="PASS">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoAmbiente@5aae8eb5]" started-at="2020-09-14T22:35:24 MSK" name="openPage" finished-at="2020-09-14T22:35:33 MSK" duration-ms="8951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method signature="addMilesTest()[pri:0, instance:TestsUI.TestoAmbiente@3005db4a]" started-at="2020-09-14T22:23:34 MSK" name="addMilesTest" finished-at="2020-09-14T22:23:40 MSK" duration-ms="5681" status="PASS">
+        <test-method signature="addMilesTest()[pri:0, instance:TestsUI.TestoAmbiente@5aae8eb5]" started-at="2020-09-14T22:35:33 MSK" name="addMilesTest" finished-at="2020-09-14T22:35:39 MSK" duration-ms="5282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMilesTest -->
-        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoAmbiente@3005db4a]" started-at="2020-09-14T22:23:40 MSK" name="closePage" finished-at="2020-09-14T22:23:41 MSK" duration-ms="713" status="PASS">
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoAmbiente@5aae8eb5]" started-at="2020-09-14T22:35:39 MSK" name="closePage" finished-at="2020-09-14T22:35:39 MSK" duration-ms="611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePage -->
       </class> <!-- TestsUI.TestoAmbiente -->
       <class name="TestsAPI.apiTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestsAPI.apiTest@42c2f48c]" started-at="2020-09-14T22:23:17 MSK" name="setup" finished-at="2020-09-14T22:23:19 MSK" duration-ms="1453" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestsAPI.apiTest@66596a88]" started-at="2020-09-14T22:35:16 MSK" name="setup" finished-at="2020-09-14T22:35:18 MSK" duration-ms="1531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addMilestone()[pri:0, instance:TestsAPI.apiTest@42c2f48c]" started-at="2020-09-14T22:23:19 MSK" name="addMilestone" finished-at="2020-09-14T22:23:23 MSK" duration-ms="4096" status="FAIL">
+        <test-method signature="addMilestone()[pri:0, instance:TestsAPI.apiTest@66596a88]" started-at="2020-09-14T22:35:18 MSK" name="addMilestone" finished-at="2020-09-14T22:35:22 MSK" duration-ms="4255" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -123,11 +123,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMilestone -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestsAPI.apiTest@42c2f48c]" started-at="2020-09-14T22:23:23 MSK" name="setup" finished-at="2020-09-14T22:23:23 MSK" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestsAPI.apiTest@66596a88]" started-at="2020-09-14T22:35:22 MSK" name="setup" finished-at="2020-09-14T22:35:22 MSK" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getMilesIAMNOTOK()[pri:0, instance:TestsAPI.apiTest@42c2f48c]" started-at="2020-09-14T22:23:23 MSK" name="getMilesIAMNOTOK" finished-at="2020-09-14T22:23:24 MSK" duration-ms="1078" status="FAIL">
+        <test-method signature="getMilesIAMNOTOK()[pri:0, instance:TestsAPI.apiTest@66596a88]" started-at="2020-09-14T22:35:22 MSK" name="getMilesIAMNOTOK" finished-at="2020-09-14T22:35:23 MSK" duration-ms="1078" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -215,103 +215,103 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMilesIAMNOTOK -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestsAPI.apiTest@42c2f48c]" started-at="2020-09-14T22:23:24 MSK" name="setup" finished-at="2020-09-14T22:23:24 MSK" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestsAPI.apiTest@66596a88]" started-at="2020-09-14T22:35:23 MSK" name="setup" finished-at="2020-09-14T22:35:23 MSK" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getMilesIAMOK()[pri:0, instance:TestsAPI.apiTest@42c2f48c]" started-at="2020-09-14T22:23:24 MSK" name="getMilesIAMOK" finished-at="2020-09-14T22:23:25 MSK" duration-ms="1125" status="PASS">
+        <test-method signature="getMilesIAMOK()[pri:0, instance:TestsAPI.apiTest@66596a88]" started-at="2020-09-14T22:35:23 MSK" name="getMilesIAMOK" finished-at="2020-09-14T22:35:24 MSK" duration-ms="1125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMilesIAMOK -->
       </class> <!-- TestsAPI.apiTest -->
     </test> <!-- api+begin -->
-    <test started-at="2020-09-14T22:23:41 MSK" name="pos+neg" finished-at="2020-09-14T22:24:52 MSK" duration-ms="70974">
+    <test started-at="2020-09-14T22:35:39 MSK" name="pos+neg" finished-at="2020-09-14T22:36:50 MSK" duration-ms="70984">
       <class name="TestsUI.TestoPositivaNegativa">
-        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:23:41 MSK" name="openPage" finished-at="2020-09-14T22:23:48 MSK" duration-ms="7469" status="PASS">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:35:39 MSK" name="openPage" finished-at="2020-09-14T22:35:47 MSK" duration-ms="7135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method signature="badDataTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:23:48 MSK" name="badDataTest" finished-at="2020-09-14T22:23:53 MSK" duration-ms="4381" status="PASS">
+        <test-method signature="badDataTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:35:47 MSK" name="badDataTest" finished-at="2020-09-14T22:35:51 MSK" duration-ms="4300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- badDataTest -->
-        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:23:53 MSK" name="closePage" finished-at="2020-09-14T22:23:54 MSK" duration-ms="847" status="PASS">
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:35:51 MSK" name="closePage" finished-at="2020-09-14T22:35:52 MSK" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePage -->
-        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:23:54 MSK" name="openPage" finished-at="2020-09-14T22:24:01 MSK" duration-ms="7259" status="PASS">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:35:52 MSK" name="openPage" finished-at="2020-09-14T22:35:59 MSK" duration-ms="7271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method signature="bubbleTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:01 MSK" name="bubbleTest" finished-at="2020-09-14T22:24:04 MSK" duration-ms="3276" status="PASS">
+        <test-method signature="bubbleTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:35:59 MSK" name="bubbleTest" finished-at="2020-09-14T22:36:02 MSK" duration-ms="3303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bubbleTest -->
-        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:04 MSK" name="closePage" finished-at="2020-09-14T22:24:05 MSK" duration-ms="719" status="PASS">
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:02 MSK" name="closePage" finished-at="2020-09-14T22:36:03 MSK" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePage -->
-        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:05 MSK" name="openPage" finished-at="2020-09-14T22:24:12 MSK" duration-ms="7365" status="PASS">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:03 MSK" name="openPage" finished-at="2020-09-14T22:36:10 MSK" duration-ms="7178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method signature="dataTypeValueTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:12 MSK" name="dataTypeValueTest" finished-at="2020-09-14T22:24:16 MSK" duration-ms="4241" status="PASS">
+        <test-method signature="dataTypeValueTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:10 MSK" name="dataTypeValueTest" finished-at="2020-09-14T22:36:15 MSK" duration-ms="4459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataTypeValueTest -->
-        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:16 MSK" name="closePage" finished-at="2020-09-14T22:24:17 MSK" duration-ms="742" status="PASS">
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:15 MSK" name="closePage" finished-at="2020-09-14T22:36:15 MSK" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePage -->
-        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:17 MSK" name="openPage" finished-at="2020-09-14T22:24:25 MSK" duration-ms="7270" status="PASS">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:15 MSK" name="openPage" finished-at="2020-09-14T22:36:23 MSK" duration-ms="7332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method signature="defectiveTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:25 MSK" name="defectiveTest" finished-at="2020-09-14T22:24:26 MSK" duration-ms="1939" status="PASS">
+        <test-method signature="defectiveTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:23 MSK" name="defectiveTest" finished-at="2020-09-14T22:36:25 MSK" duration-ms="2061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- defectiveTest -->
-        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:26 MSK" name="closePage" finished-at="2020-09-14T22:24:27 MSK" duration-ms="724" status="PASS">
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:25 MSK" name="closePage" finished-at="2020-09-14T22:36:26 MSK" duration-ms="718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePage -->
-        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:27 MSK" name="openPage" finished-at="2020-09-14T22:24:35 MSK" duration-ms="7358" status="PASS">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:26 MSK" name="openPage" finished-at="2020-09-14T22:36:33 MSK" duration-ms="7142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method signature="imagedialogTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:35 MSK" name="imagedialogTest" finished-at="2020-09-14T22:24:39 MSK" duration-ms="4464" status="PASS">
+        <test-method signature="imagedialogTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:33 MSK" name="imagedialogTest" finished-at="2020-09-14T22:36:37 MSK" duration-ms="4638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imagedialogTest -->
-        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:39 MSK" name="closePage" finished-at="2020-09-14T22:24:40 MSK" duration-ms="729" status="PASS">
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:37 MSK" name="closePage" finished-at="2020-09-14T22:36:38 MSK" duration-ms="763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePage -->
-        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:40 MSK" name="openPage" finished-at="2020-09-14T22:24:47 MSK" duration-ms="7399" status="PASS">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:38 MSK" name="openPage" finished-at="2020-09-14T22:36:45 MSK" duration-ms="7257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method signature="limitValueTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:47 MSK" name="limitValueTest" finished-at="2020-09-14T22:24:51 MSK" duration-ms="3845" status="PASS">
+        <test-method signature="limitValueTest()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:45 MSK" name="limitValueTest" finished-at="2020-09-14T22:36:49 MSK" duration-ms="3824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- limitValueTest -->
-        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@61799544]" started-at="2020-09-14T22:24:51 MSK" name="closePage" finished-at="2020-09-14T22:24:52 MSK" duration-ms="713" status="PASS">
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoPositivaNegativa@248deced]" started-at="2020-09-14T22:36:49 MSK" name="closePage" finished-at="2020-09-14T22:36:50 MSK" duration-ms="1114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePage -->
       </class> <!-- TestsUI.TestoPositivaNegativa -->
     </test> <!-- pos+neg -->
-    <test started-at="2020-09-14T22:24:52 MSK" name="destroyer" finished-at="2020-09-14T22:25:03 MSK" duration-ms="11298">
+    <test started-at="2020-09-14T22:36:50 MSK" name="destroyer" finished-at="2020-09-14T22:37:02 MSK" duration-ms="11925">
       <class name="TestsUI.TestoTerminar">
-        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoTerminar@43effd89]" started-at="2020-09-14T22:24:52 MSK" name="openPage" finished-at="2020-09-14T22:24:59 MSK" duration-ms="7284" status="PASS">
+        <test-method is-config="true" signature="openPage()[pri:0, instance:TestsUI.TestoTerminar@4f186450]" started-at="2020-09-14T22:36:50 MSK" name="openPage" finished-at="2020-09-14T22:36:58 MSK" duration-ms="7277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage -->
-        <test-method signature="killmeplsTest()[pri:0, instance:TestsUI.TestoTerminar@43effd89]" started-at="2020-09-14T22:24:59 MSK" name="killmeplsTest" finished-at="2020-09-14T22:25:02 MSK" duration-ms="3301" status="PASS">
+        <test-method signature="killmeplsTest()[pri:0, instance:TestsUI.TestoTerminar@4f186450]" started-at="2020-09-14T22:36:58 MSK" name="killmeplsTest" finished-at="2020-09-14T22:37:01 MSK" duration-ms="3482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killmeplsTest -->
-        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoTerminar@43effd89]" started-at="2020-09-14T22:25:02 MSK" name="closePage" finished-at="2020-09-14T22:25:03 MSK" duration-ms="710" status="PASS">
+        <test-method is-config="true" signature="closePage()[pri:0, instance:TestsUI.TestoTerminar@4f186450]" started-at="2020-09-14T22:37:01 MSK" name="closePage" finished-at="2020-09-14T22:37:02 MSK" duration-ms="1159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closePage -->
