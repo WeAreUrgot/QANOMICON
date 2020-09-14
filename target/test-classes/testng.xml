@@ -10,7 +10,6 @@
     <test name="pos+neg">
         <classes>
             <class name="TestsUI.TestoPositivaNegativa"/>
-            <class name="TestsUI.TestoNegativa"/>
         </classes>
     </test>
     <test name="destroyer">
