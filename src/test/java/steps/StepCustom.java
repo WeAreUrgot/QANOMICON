@@ -18,6 +18,8 @@ public class StepCustom extends BaseStep {
     @Step
     public void endValues() {
         ACustomField addACustomField = new ACustomField(browsersService, true);
+        addACustomField.addCaseField.sendKeys(Keys.ARROW_DOWN);
+        addACustomField.addCaseField.getLocation();
         addACustomField.addCaseField.click();
         addACustomField.labelField.sendKeys("Thats Weird");
         addACustomField.systemNameField.sendKeys("soloonkeyboardsoloonkeyboardsoloonkeyboardsoloonkeyboardsoloonkeyboard");
