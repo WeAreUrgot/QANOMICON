@@ -10,7 +10,7 @@ public class Dashboard extends BasePageFactory {
     @FindBy(id = "sidebar-projects-add")
     public WebElement addProjectButtonDash;
 
-    @FindBy(xpath = "//div/a[text()='QANOMICON Exrended Version']")
+    @FindBy(xpath = "//div/a[text()='QANOMICON Extended Version']")
     public WebElement nameProjectButton;
 
     @FindBy(id = "sidebar-projects-add")
