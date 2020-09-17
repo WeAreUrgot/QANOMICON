@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntity.BasePageFactory;
+import baseEntity.BasePage;
 import core.BrowsersService;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Milestones extends BasePageFactory {
+public class Milestones extends BasePage {
 
     @FindBy(xpath = "//div/a[text()='Edit']")
     public WebElement editStonesButton;

@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntity.BasePageFactory;
+import baseEntity.BasePage;
 import core.BrowsersService;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Login extends BasePageFactory {
+public class Login extends BasePage {
 
     @FindBy(id = "password")
     public WebElement passField;

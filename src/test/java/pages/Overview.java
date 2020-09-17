@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntity.BasePageFactory;
+import baseEntity.BasePage;
 import core.BrowsersService;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Overview extends BasePageFactory {
+public class Overview extends BasePage {
 
     @FindBy(id = "sidebar-milestones-add")
     public WebElement addMilesButtonOver;

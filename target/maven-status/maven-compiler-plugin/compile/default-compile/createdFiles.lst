@@ -1,8 +1,8 @@
 baseEntity\BaseTest.class
 addon\AllureOpen.class
-baseEntity\BasePageFactory.class
 core\BrowsersService.class
 core\ReadProperties.class
+baseEntity\BasePage.class
 addon\Jenkins.class
 utils\Waiters.class
 baseEntity\BaseStep.class

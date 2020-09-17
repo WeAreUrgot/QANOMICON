@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntity.BasePageFactory;
+import baseEntity.BasePage;
 import core.BrowsersService;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Error extends BasePageFactory {
+public class Error extends BasePage {
 
     @FindBy(xpath = "//h1[text()='An Error Occurred']")
     public WebElement messageError;

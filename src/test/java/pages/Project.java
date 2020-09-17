@@ -1,11 +1,11 @@
 package pages;
 
-import baseEntity.BasePageFactory;
+import baseEntity.BasePage;
 import core.BrowsersService;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Project extends BasePageFactory {
+public class Project extends BasePage {
 
     @FindBy(id = "navigation-dashboard")
     public WebElement dashboardButton;

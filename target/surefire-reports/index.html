@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-likeasnake" class="navigator-link">
-              <span class="suite-name border-failed">likeasnake</span>
+              <span class="suite-name border-passed">likeasnake</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-likeasnake" class="hide-methods failed suite-likeasnake"> (hide)</a> <!-- hide-methods failed suite-likeasnake -->
-                      <a href="#" panel-name="suite-likeasnake" class="show-methods failed suite-likeasnake"> (show)</a> <!-- show-methods failed suite-likeasnake -->
-                    </span>
-                    <div class="method-list-content failed suite-likeasnake">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-likeasnake" title="TestsAPI.apiTest" class="method navigator-link" hash-for-method="addMilestone">addMilestone</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-likeasnake" title="TestsAPI.apiTest" class="method navigator-link" hash-for-method="getMilesIAMNOTOK">getMilesIAMNOTOK</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-likeasnake -->
+                    <span class="method-stats">11 methods,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,6 +103,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-likeasnake" title="TestsUI.TestoAmbiente" class="method navigator-link" hash-for-method="addMilesTest">addMilesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-likeasnake" title="TestsAPI.apiTest" class="method navigator-link" hash-for-method="addMilestone">addMilestone</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,6 +128,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-likeasnake" title="TestsUI.TestoPositivaNegativa" class="method navigator-link" hash-for-method="defectiveTest">defectiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-likeasnake" title="TestsAPI.apiTest" class="method navigator-link" hash-for-method="getMilesIAMNOTOK">getMilesIAMNOTOK</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -176,139 +167,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-likeasnake" class="panel likeasnake">
-          <div class="suite-likeasnake-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestsAPI.apiTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addMilestone">
-                  </a> <!-- addMilestone -->
-                  <span class="method-name">addMilestone</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-JSON path name doesn&apos;t match.
-Expected: is &quot;Ivanton&quot;
-  Actual: null
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
-	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:192)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
-	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
-	at TestsAPI.apiTest.addMilestone(apiTest.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 46 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getMilesIAMNOTOK">
-                  </a> <!-- getMilesIAMNOTOK -->
-                  <span class="method-name">getMilesIAMNOTOK</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-JSON path name doesn&apos;t match.
-Expected: is &quot;Ivanton&quot;
-  Actual: null
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
-	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
-	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
-	at TestsAPI.apiTest.getMilesIAMNOTOK(apiTest.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 46 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-likeasnake-class-failed -->
-          <div class="suite-likeasnake-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestsUI.TestoAmbiente</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addMilesTest">
-                  </a> <!-- addMilesTest -->
-                  <span class="method-name">addMilesTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-likeasnake-class-passed -->
-          <div class="suite-likeasnake-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestsAPI.apiTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getMilesIAMOK">
-                  </a> <!-- getMilesIAMOK -->
-                  <span class="method-name">getMilesIAMOK</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-likeasnake-class-passed -->
-          <div class="suite-likeasnake-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestsUI.TestoTerminar</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="killmeplsTest">
-                  </a> <!-- killmeplsTest -->
-                  <span class="method-name">killmeplsTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-likeasnake-class-passed -->
           <div class="suite-likeasnake-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -355,6 +213,65 @@ Expected: is &quot;Ivanton&quot;
                   <a name="limitValueTest">
                   </a> <!-- limitValueTest -->
                   <span class="method-name">limitValueTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-likeasnake-class-passed -->
+          <div class="suite-likeasnake-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsUI.TestoTerminar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="killmeplsTest">
+                  </a> <!-- killmeplsTest -->
+                  <span class="method-name">killmeplsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-likeasnake-class-passed -->
+          <div class="suite-likeasnake-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsUI.TestoAmbiente</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMilesTest">
+                  </a> <!-- addMilesTest -->
+                  <span class="method-name">addMilesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-likeasnake-class-passed -->
+          <div class="suite-likeasnake-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsAPI.apiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMilestone">
+                  </a> <!-- addMilestone -->
+                  <span class="method-name">addMilestone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMilesIAMNOTOK">
+                  </a> <!-- getMilesIAMNOTOK -->
+                  <span class="method-name">getMilesIAMNOTOK</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMilesIAMOK">
+                  </a> <!-- getMilesIAMOK -->
+                  <span class="method-name">getMilesIAMOK</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -432,47 +349,47 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addMilesTest')
 data.setCell(0, 2, 'TestsUI.TestoAmbiente')
-data.setCell(0, 3, 5681);
+data.setCell(0, 3, 5718);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'imagedialogTest')
 data.setCell(1, 2, 'TestsUI.TestoPositivaNegativa')
-data.setCell(1, 3, 4464);
+data.setCell(1, 3, 4678);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'badDataTest')
-data.setCell(2, 2, 'TestsUI.TestoPositivaNegativa')
-data.setCell(2, 3, 4381);
+data.setCell(2, 1, 'addMilestone')
+data.setCell(2, 2, 'TestsAPI.apiTest')
+data.setCell(2, 3, 4573);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'dataTypeValueTest')
 data.setCell(3, 2, 'TestsUI.TestoPositivaNegativa')
-data.setCell(3, 3, 4241);
+data.setCell(3, 3, 4008);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'addMilestone')
-data.setCell(4, 2, 'TestsAPI.apiTest')
-data.setCell(4, 3, 4096);
+data.setCell(4, 1, 'badDataTest')
+data.setCell(4, 2, 'TestsUI.TestoPositivaNegativa')
+data.setCell(4, 3, 3976);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'limitValueTest')
+data.setCell(5, 1, 'bubbleTest')
 data.setCell(5, 2, 'TestsUI.TestoPositivaNegativa')
-data.setCell(5, 3, 3845);
+data.setCell(5, 3, 3814);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'killmeplsTest')
-data.setCell(6, 2, 'TestsUI.TestoTerminar')
-data.setCell(6, 3, 3301);
+data.setCell(6, 1, 'limitValueTest')
+data.setCell(6, 2, 'TestsUI.TestoPositivaNegativa')
+data.setCell(6, 3, 3225);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'bubbleTest')
-data.setCell(7, 2, 'TestsUI.TestoPositivaNegativa')
-data.setCell(7, 3, 3276);
+data.setCell(7, 1, 'killmeplsTest')
+data.setCell(7, 2, 'TestsUI.TestoTerminar')
+data.setCell(7, 3, 3069);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'defectiveTest')
 data.setCell(8, 2, 'TestsUI.TestoPositivaNegativa')
-data.setCell(8, 3, 1939);
+data.setCell(8, 3, 1904);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'getMilesIAMOK')
+data.setCell(9, 1, 'getMilesIAMNOTOK')
 data.setCell(9, 2, 'TestsAPI.apiTest')
-data.setCell(9, 3, 1125);
+data.setCell(9, 3, 1169);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'getMilesIAMNOTOK')
+data.setCell(10, 1, 'getMilesIAMOK')
 data.setCell(10, 2, 'TestsAPI.apiTest')
-data.setCell(10, 3, 1078);
+data.setCell(10, 3, 1045);
 window.suiteTableData['likeasnake']= { tableData: data, tableDiv: 'times-div-likeasnake'}
 return data;
 }
@@ -509,133 +426,129 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">addMilestone</span>
-                <span class="method-start">1609 ms</span>
+                <span class="method-start">1719 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">5736 ms</span>
+                <span class="method-start">6314 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">getMilesIAMNOTOK</span>
-                <span class="method-start">5752 ms</span>
+                <span class="method-start">6320 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">6845 ms</span>
+                <span class="method-start">7507 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getMilesIAMOK</span>
-                <span class="method-start">6892 ms</span>
+                <span class="method-start">7533 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsUI.TestoAmbiente</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openPage</span>
-                <span class="method-start">8017 ms</span>
+                <span class="method-start">8584 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addMilesTest</span>
-                <span class="method-start">16723 ms</span>
+                <span class="method-start">17685 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closePage</span>
-                <span class="method-start">22408 ms</span>
+                <span class="method-start">23408 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsUI.TestoPositivaNegativa</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openPage</span>
-                <span class="method-start">23371 ms</span>
+                <span class="method-start">24156 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">badDataTest</span>
-                <span class="method-start">30842 ms</span>
+                <span class="method-start">33628 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closePage</span>
-                <span class="method-start">35313 ms</span>
+                <span class="method-start">37664 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openPage</span>
-                <span class="method-start">36160 ms</span>
+                <span class="method-start">38348 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">bubbleTest</span>
-                <span class="method-start">43421 ms</span>
+                <span class="method-start">46070 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closePage</span>
-                <span class="method-start">46699 ms</span>
+                <span class="method-start">49885 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openPage</span>
-                <span class="method-start">47449 ms</span>
+                <span class="method-start">51083 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dataTypeValueTest</span>
-                <span class="method-start">54815 ms</span>
+                <span class="method-start">58336 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closePage</span>
-                <span class="method-start">59057 ms</span>
+                <span class="method-start">62345 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openPage</span>
-                <span class="method-start">59799 ms</span>
+                <span class="method-start">63035 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">defectiveTest</span>
-                <span class="method-start">67070 ms</span>
+                <span class="method-start">70152 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closePage</span>
-                <span class="method-start">69011 ms</span>
+                <span class="method-start">72058 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openPage</span>
-                <span class="method-start">69828 ms</span>
+                <span class="method-start">73014 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">imagedialogTest</span>
-                <span class="method-start">77187 ms</span>
+                <span class="method-start">80830 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closePage</span>
-                <span class="method-start">81654 ms</span>
+                <span class="method-start">85513 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openPage</span>
-                <span class="method-start">82383 ms</span>
+                <span class="method-start">86202 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">limitValueTest</span>
-                <span class="method-start">89783 ms</span>
+                <span class="method-start">93297 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closePage</span>
-                <span class="method-start">93632 ms</span>
+                <span class="method-start">96523 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestsUI.TestoTerminar</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openPage</span>
-                <span class="method-start">94376 ms</span>
+                <span class="method-start">97260 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">killmeplsTest</span>
-                <span class="method-start">101661 ms</span>
+                <span class="method-start">104947 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closePage</span>
-                <span class="method-start">104964 ms</span>
+                <span class="method-start">108017 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
