@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="likeasnake">
-    <test name="api+begin">
+<suite name="Parallel" thread-count="2" parallel="classes">
+    <test name="start">
         <classes>
             <class name="TestsAPI.apiTest"/>
             <class name="TestsUI.TestoAmbiente"/>
         </classes>
     </test>
-    <test name="pos+neg">
+    <test name="check">
         <classes>
             <class name="TestsUI.TestoPositivaNegativa"/>
         </classes>
     </test>
-    <test name="destroyer">
+    <test name="finish">
         <classes>
             <class name="TestsUI.TestoTerminar"/>
         </classes>
