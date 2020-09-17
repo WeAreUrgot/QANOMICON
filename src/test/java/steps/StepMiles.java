@@ -42,7 +42,7 @@ public class StepMiles extends BaseStep {
         String absolutePath = file.getAbsolutePath();
         aMiles.fileUpload.sendKeys(absolutePath);
         aMiles.addImages.click();
-        aMiles.addMilesButton.sendKeys(Keys.END);
+        //aMiles.addMilesButton.sendKeys(Keys.END);
         aMiles.addMilesButton.click();
     }
 
