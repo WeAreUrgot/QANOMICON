@@ -67,6 +67,11 @@
             <artifactId>selenium-api</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <dependency>
+            <groupId>ru.yandex.qatools.allure</groupId>
+            <artifactId>allure-testng-adaptor</artifactId>
+            <version>RELEASE</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-commandline -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
